@@ -1,0 +1,183 @@
+/* Reiniciamos valores */
+*{
+    padding: 0;
+    margin: 0;
+    font-size: Montserrat;
+}
+/* Barra de navegacion */
+.nav{
+    width: 100%;
+    margin: auto ;
+    max-width: 1000px;
+    padding-top: 10px;
+}
+.nav-bar{
+    width: 100%;
+    display: flex;
+}
+.menu{
+    width: 60%;
+}
+.menu li{
+    display:inline-block;
+}
+.menu li a{
+    display: inline-block;
+    padding: 7px;
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    font-weight: bold;
+    padding-left: 2px;
+}
+.titulo{
+    width: 100%;
+}
+.opciones{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.opciones a{
+    border: 1px solid rgb(112, 107, 107);
+    padding: 7px 7px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.registrarse{
+    display: inline-block;
+    background-color: #0E1731;
+    color: #FFF;
+    margin-right: 10px;
+    font-weight: 700;
+}
+.iniciar{
+    color: #000;
+    font-weight: 700;
+}
+
+
+
+
+/* Contenedor principal */
+.contenedor{
+    display: flexbox;
+    margin: auto ;
+    padding-top: 4vh;
+    max-width: 1000px;
+}
+/*Contenero secundario*/
+.cuerpo{
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+}
+/* Contendor principal    */
+.cuerpo .principal{
+    width: 50%;
+    margin-right: 5%;
+}
+.principal .art{
+    width: 100%;
+}
+.art .img{
+    width: 100%;
+    height: 150px;
+    display: block;
+    background: linear-gradient(-45deg, rgba(209,220,240,1) 0%, rgb(86, 88, 83) 100%);
+}
+
+.art .subtitulo{
+    margin: 20px 0px;
+}
+
+/* Artiuculos */
+.cuerpo .articulos{
+    width: 45%;
+}
+
+.articulos .titulo{
+    padding-bottom: 10px;
+}
+.articulos .articulo{
+    display: flex;
+    width: 100%;
+    padding-bottom: 10px;
+}
+.articulo .contenido{
+    width: 100%;
+    padding-left: 5px;
+
+}
+.articulos .articulo .imagen{
+    width: 40%;
+    background-color: #E0E;
+}
+.usuario{
+    width: 100%;
+    padding: 5px 5px;
+    display: flex;
+}
+.usuario .img{
+    display: flex;
+    width: 20px;
+    padding-right: 10px;
+}
+.usuario p{
+    width: 80%;
+    padding-top: 3px;
+    font-size: 12px;
+}
+.imgAva{
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* MediaQueries */
+
+
+
+@media (max-width: 1000px) {
+    .nav , .contenedor{
+        max-width: 640px;
+    }
+}
+
+@media (max-width: 640px) {
+    .nav , .contenedor{
+        width: 95%;
+    }
+    
+    .menu{
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .nav-bar{
+        width: 100%;
+        display: block;
+    }
+        .opciones{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .cuerpo{
+        margin-top: 10px;
+        display: block;
+        width: 100%;
+    }
+    
+    .cuerpo .principal{
+        width: 100%;
+        padding-bottom: 10px;
+    }  
+    .cuerpo .articulos{
+        width: 100%;
+    }
+}
