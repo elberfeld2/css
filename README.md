@@ -2,12 +2,24 @@
 
 ## Ligas
 
+### CSS GUIAS
+
+[Mozilla](https://developer.mozilla.org/es/docs/Web/CSS)
+
+[W3S](https://www.w3schools.com/css/)
+
+### Interesantes
+
+[Recomendaciones](https://nodesign.dev/)
+
 [Gradiente,Borde](https://www.cssmatic.com/es/)
+[Ilustraciones](https://illlustrations.co/)
+[Diseños](https://uidesigndaily.com/)
+[Colores](https://material.io/resources/color/#!/)
 
-[CSS mozilla](https://developer.mozilla.org/es/docs/Web/CSS)
+### Programas 
 
-[CSS W3S](https://www.w3schools.com/css/)
-
+[Figma](https://www.figma.com/)
 
 ## Maquetado
 
