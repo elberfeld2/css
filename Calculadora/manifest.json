@@ -3,7 +3,7 @@
   "short_name": "Calc",
   "description": "Calculadora PWA con CSS y degradados",
   "background_color": "#C0C0C0",
-  "theme_color": "#C0C0C0",
+  "theme_color": "#000",
   "orientation": "portrait",
   "display": "standalone",
   "start_url": "./?utm_source=web_app_manifest",
