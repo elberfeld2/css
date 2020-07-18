@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora",
+  "short_name": "Calc",
+  "description": "Calculadora PWA con CSS y degradados",
+  "background_color": "##C0C0C0",
+  "theme_color": "##C0C0C0",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "./?utm_source=web_app_manifest",
+  "scope": "./",
+  "lang": "es-MX",
+  "icons": [
+    {
+      "src": "./img/icon_512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "./img/icon_128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "./img/icon_96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ]
+}

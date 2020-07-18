@@ -1,0 +1,65 @@
+
+<!doctype html>
+<html lang="en">
+
+  <head>
+  
+    <title>Calculadora</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">   
+
+        
+    <meta name="description" content="Calculadora PWA con CSS y degradados">
+
+    <meta name="theme-color" content="#F0DB4F">
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="shortcut icon" type="image/png" href="./img/icon_512.png">
+    <link rel="apple-touch-icon" href="./img/icon_512.png">
+    <link rel="apple-touch-startup-image" href="./img/icon_512.png">
+    <link rel="manifest" href="./manifest.json">
+
+    <link href="calculadora.css" rel="stylesheet">
+    <script src="calculadora.js"></script> 
+
+
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td colspan="4"><div id="result">0</div></td>
+      </tr>
+      <tr>
+        <td><button onclick="add('1')">1</button></td>
+        <td><button onclick="add('2')">2</button></td>
+        <td><button onclick="add('3')">3</button></td>
+        <td><button onclick="add('+')">+</button></td>
+      </tr>
+      <tr>
+        <td><button onclick="add('4')">4</button></td>
+        <td><button onclick="add('5')">5</button></td>
+        <td><button onclick="add('6')">6</button></td>
+        <td><button onclick="add('-')">-</button></td>
+      </tr>
+      <tr>
+        <td><button onclick="add('7')">7</button></td>
+        <td><button onclick="add('8')">8</button></td>
+        <td><button onclick="add('9')">9</button></td>
+        <td><button onclick="add('*')">*</button></td>
+      </tr>
+      <tr>
+        <td colspan="3"><button onclick="add('0')">0</button></td>
+        <td colspan="3"><button onclick="add('/')">/</button></td>          
+      </tr>
+      <tr>
+        <td colspan="2"><button onclick="del()" class="ac">AC</button></td>
+        <td><button onclick="add('.')">.</button></td>
+        <td><button onclick="calc()">=</button></td>            
+      </tr>
+    </table>
+  </body>
+</html>
