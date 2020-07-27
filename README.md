@@ -8,7 +8,7 @@
 
 [W3S](https://www.w3schools.com/css/)
 
-[Bootstrap 5.0](https://v5.getbootstrap.com/docs/5.0/forms/file/)
+[Bootstrap 5.0](https://v5.getbootstrap.com/docs/5.0/getting-started/introduction/)
 
 ### Interesantes
 
@@ -31,8 +31,10 @@
 
 ## Maquetado
 
-[Pagina](https://elberfeld2.github.io/css/pagina)
+[Pagina](https://elberfeld2.github.io/css/Pagina)
 
 [CRUD Bosststrap](https://elberfeld2.github.io/css/Bootstrap/CRUD.html)
 
 [PWA Calculadora](https://elberfeld2.github.io/css/Calculadora)
+
+[PWA Tienda](https://elberfeld2.github.io/css/Tienda_PWA/)
